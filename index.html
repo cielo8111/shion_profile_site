@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <title>Shion&#39;s Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for world-renowned software
+    engineer Shion"
+    />
+    <meta name="author" content="Shion" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- OG (Open Graph Data) -->
+    <meta property="og:title" content="Shion's portfolio" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://github.com/cielo8111/shion_portfolio"  
+    />
+    <meta
+      property="og:image"
+      content="https://github.com/cielo8111/shion_portfolio/images/og.webp"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/554675d002.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/554675d002.js" crossorigin="anonymous"></script>
+
+    
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Javascript -->
+    <script type="module" src="src/main.js" defer></script>
+    <script type="module" src="src/projects.js" defer></script>
+    <script type="module" src="src/active_menu.js" defer></script>
+    <script type="module" src="src/type.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo__img" src="images/favicon.ico" alt="logo" />
+        <h1 class="header__logo__title"><a href="#">&lt;/shion&gt;</a></h1>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li><a class="header__menu__item active" href="#home">Home</a></li>
+          <li><a class="header__menu__item" href="#about">About</a></li>
+          <li><a class="header__menu__item" href="#skills">Skills</a></li>
+          <li><a class="header__menu__item" href="#work">My work</a></li>
+          <li>
+            <a class="header__menu__item" href="#history">Project History</a>
+          </li>
+          <li><a class="header__menu__item" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="header__toggle" aria-label="navigation menu toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Home -->
+      <section id="home">
+        <div class="max-container home__container">
+          <img
+            class="home__avatar"
+            src="images/profile.png"
+            alt="Shion's profile"
+          />
+          <img src="images/shion_kenkou_bg_blue.001.jpg" alt="Shion's profile photo" class="home__avatar_m">
+          <div>
+            <h2 class="home__title" aria-label="Hello, I'm Software Engineer Shion">
+              Hello <br />I&#39;m a
+              <strong class="home__title--strong">Software Engineer</strong>, Shion
+            </h2>
+            <p class="home__description">
+              A software engineer and project manager currently residing in Osaka, Japan
+            </p>
+            <a class="home__contact" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about" class="section max-container">
+        <h2 class="title">About me</h2>
+        <p class="description">
+          "&lt;shion&gt; ∞  &lt;/shion&gt; Starting with shion and ending with shion. 
+          Within it, various elements exist, and it is through the existence of these elements that it is completed."
+          <!-- I have worked as a project and product manager for 10 years, 
+          releasing over 20 mobile games in the Japanese market. 
+          During this Duration, I have gained experience in a series of processes from start-up to live service. 
+          Additionally, I have worked as a software engineer for 3 years, 
+          developing attendance applications, creating websites, and handling server setup and maintenance. 
+          I have also been involved in various other IT services, including planning the LIVE Platform. -->
+        </p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-brands fa-python major__icon"></i>
+            <p class="major__title">Programming languages</p>
+            <p>HTML5, CSS3, JavaScript, PHP, Python, SQL, Etc...</p>
+          </li>
+          <li class="major">
+            <i class="fa-solid fa-globe major__icon"></i>
+            <p class="major__title">Natural languages</p>
+            <p>Korean (Native speaker), Japanes (Business level)</p>
+          </li>
+          <li class="major">
+            <i class="fa-solid fa-list-check major__icon"></i>
+            <p class="major__title">Project Management</p>
+            <p>Efficient Planning and Management of IT Projects</p>
+          </li>
+        </ul>
+        <ul class="jobs">
+          <li class="job">
+            <img src="images/jobs/encube_logo.png" alt="ENCUBE logo" />
+            <div>
+              <p class="job__name">ENCUBE as Project Manager and Software Engineer</p>
+              <p class="job__period">Oct 2016 - Until now</p>
+            </div>
+          </li>
+          <li class="job">
+            <img src="images/jobs/wemade_logo.png" alt="WeMade logo" />
+            <div>
+              <p class="job__name">WeMade Online as Project Manager</p>
+              <p class="job__period">Oct 2013 - Oct 2016</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Skills -->
+      <section id="skills" class="section max-container_m"">
+        <div class="max-container">
+          <h2 class="title">My Skills</h2>
+          <p class="description">Skills & Attributes</p>
+          <p class="padding__lr">
+            I have worked as a project and product manager for 10 years, 
+            releasing over 20 mobile games in the Japanese market. 
+            During this Duration, I have gained experience in a series of processes from start-up to live service. 
+            Additionally, I have worked as a software engineer for 3 years, 
+            developing attendance applications, creating websites, and handling server setup and maintenance. 
+            I have also been involved in various other IT services, including planning the LIVE Platform.
+          </p>
+          <div class="skills">
+            <section class="skills__coding">
+              <h3 class="skills__title">Skills</h3>
+              <ul>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>HTML</span><span>90%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 90%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>CSS</span><span>80%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 75%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>JavaScript</span><span>70%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 70%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Python</span><span>80%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 80%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>PHP</span><span>60%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 60%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Project / Product Management</span><span>90%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 90%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Korean</span><span>99%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 99%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Japanese</span><span>90%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 90%"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="skills__tools">
+              <h3 class="skills__title">Tools, Dev Console, Etc</h3>
+              <ul>
+                <li class="margin__bottom">Visual Studio Code</li>
+                <li class="margin__bottom">IntelliJ</li>
+                <li class="margin__bottom">AppStore Connect</li>
+                <li class="margin__bottom">GooglePlay Console</li>
+                <li class="margin__bottom">Git</li>
+                <li class="margin__bottom">MS Word, Excel, PowerPoint</li>
+                <li class="margin__bottom">Assembling desktop computers</li>
+              </ul>
+            </section>
+            <section class="skills__etc">
+              <h3 class="skills__title">Certifications earned</h3>
+              <ul>
+                <li class="margin__bottom">Engineer Information Processing (May 2013)</li>
+                <li class="margin__bottom">Industrial Engineer Information Processing (May 2013)</li>
+                <li class="margin__bottom">Korean Language Teacher (Oct 2012)</li>
+                <li class="margin__bottom">JLPT N1 (Feb 2005, Jan 2010, Aug 2010)</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- Work -->
+      <section id="work" class="section">
+        <div class="max-container">
+          <h2 class="title">My work</h2>
+          <p class="description">Projects</p>
+          <ul class="categories">
+            <li>
+              <button class="category category--selected" data-category="all">
+                All <span class="category__count">4</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="front-end">
+                Front-end <span class="category__count">4</span>
+              </button>
+            </li>
+            <!-- <li>
+              <button class="category" data-category="back-end">
+                Back-end <span class="category__count">2</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="mobile">
+                Mobile <span class="category__count">2</span>
+              </button>
+            </li> -->
+          </ul>
+          <ul class="projects">
+            <li class="project" data-type="front-end">
+              <a href="https://moonlight.kakaogamesjapan.com" target="_blank">
+                <img
+                  src="images/projects/project1.webp"
+                  alt="project1"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">'Moonlight Sculptor' Official Site</h3>
+                  <p>Coding with HTML, CSS, JavaScript</p>
+                </div>
+              </a>
+            </li>
+            <!-- <li class="project" data-type="front-end">
+              <a href="https://moonlight-info.kakaogamesjapan.com" target="_blank">
+                <img
+                  src="images/projects/project2.webp"
+                  alt="project2"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">'Moonlight Sculptor' Operational website</h3>
+                  <p>Coding with HTML, CSS, PHP</p>
+                </div>
+              </a>
+            </li> -->
+            <li class="project" data-type="front-end">
+              <a href="https://herocantare.jp" target="_blank">
+                <img
+                  src="images/projects/project3.webp"
+                  alt="project3"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">'Hero Cantare' Official Site</h3>
+                  <p>Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="front-end">
+              <a href="https://herocantare.jp/official/" target="_blank">
+                <img
+                  src="images/projects/project4.webp"
+                  alt="project4"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">'Hero Cantare' Operational site</h3>
+                  <p>Coding with HTML, CSS, PHP</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="front-end">
+              <a href="https://www.encube.co.jp/" target="_blank">
+                <img
+                  src="images/projects/project5.webp"
+                  alt="project5"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">ENCUBE Official Site</h3>
+                  <p>Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+      <!-- job__history -->
+      <section id="history" class="section max-container max-container_m">
+        <h2 class="title">Project History</h2>
+        <p class="description">Summary of Projects Participated from 2013 to Present</p>
+        <ul class="job__history">
+          <li class="history">
+            <img
+              src="images/job_history/Y2023.png"
+              alt="people1"
+              class="history__img"
+            />
+            <div class="history__bubble">
+              <p class="history__bubble__name">
+                Automation of Translation using DeepL API
+              </p>
+              <p>
+                Duration: May 2023 |
+                Language: VBA, (DeepL API) |  
+                Description: Utilizing DeepL's API to automate translation using functions in a local Excel environment.
+              </p>
+              <p class="history__bubble__name">
+                Automation of KPI Summary Creation for 'Hero Cantare'
+              </p>
+              <p>
+                Duration: May 2023 | 
+                Languages: Python, HTML | 
+                Description: Development of an automated system to collect and share KPI metrics, 
+                sending them via email to all employees at specified times.
+              </p>
+            </div>
+          </li>
+          <li class="history">
+            <img
+              src="images/job_history/Y2022.png"
+              alt="people1"
+              class="history__img"
+            />
+            <div class="history__bubble">
+              <p class="history__bubble__name">
+                Development and Maintenance of Attendance Management Desktop App
+              </p>
+              <p>
+                Duration: October 2022 - Present |
+                Language: Python, (LINE API) |
+                Platforms: Windows, Mac |
+                Description: Planning, development, QA, maintenance, and utilization of the LINE API for automatic notification functions.
+              </p>
+            </div>
+          </li>
+          <li class="history">
+            <img
+              src="images/job_history/Y2021.png"
+              alt="people1"
+              class="history__img"
+            />
+            <div class="history__bubble">
+              <p class="history__bubble__name">
+                Development and Maintenance of 'Moonlight Sculptor' Official Site
+              </p>
+              <p>
+                Duration: February 2021 - October 2022 |
+                Languages: HTML, CSS, JavaScript |
+                Description: Improvement and addition of new features for the Japanese version based 
+                on the source code of the Korean official site, content updates, server contract, and setup.
+              </p>
+              <p class="history__bubble__name">
+                Development and Maintenance of 'Moonlight Sculptor' Management Site<
+              </p>
+              <p>
+                Duration: March 2021 - October 2022 | 
+                Languages: PHP, HTML, CSS | 
+                Description: Server setup, WordPress implementation, addition of features using PHP, and maintenance.
+              </p>
+              <p class="history__bubble__name">
+                Development of Event Forms
+              </p>
+              <p>
+                Duration: March 2021 |
+                Languages: HTML, CSS, PHP |
+                Description: Development of limited forms for inputting personal information of event winners on the company's site, 
+                'Moonlight Sculptor' and 'Lords of Heroes'.
+              </p>
+              <p class="history__bubble__name">
+                Development and Maintenance of 'Lords of Dice' Management Site<
+              </p>
+              <p>
+                Duration: March 2021 - October 2022 | 
+                Languages: PHP, HTML, CSS | 
+                Description: Server setup, WordPress implementation, addition of features using PHP, and maintenance.
+              </p>
+            </div>
+          </li>
+          <li class="history">
+            <img
+              src="images/job_history/Y2020.png"
+              alt="people1"
+              class="history__img"
+            />
+            <div class="history__bubble">
+              <p class="history__bubble__name">
+                Update and Maintenance of 'Hero Cantare' Official Site
+              </p>
+              <p>
+                Duration: September 2020 - Present | 
+                Languages: HTML, CSS | 
+                Description:: Server setup, addition of updated content, and maintenance.
+              </p>
+              <p>
+                In-house IT Support</a>
+              </p>
+              <p>
+                Duration: May 2020 - Present | 
+                Description: Network management, security, PC management, assembly, and updates.
+              </p>
+              <p class="history__bubble__name">
+                Maintenance, Repair, and Content Updates for ENCUBE Site
+              </p>
+              <p>
+                Duration: May 2020 - Present |
+                Languages: HTML, CSS |
+                Description:: Server management, content updates, and maintenance for the company's corporate website.
+              </p>
+              <p class="history__bubble__name">
+                Moonlight Sculptor
+              </p>
+              <p>
+                Duration: Oct 2020 to Nov 2022 | 
+                Platforms: iOS, Android, PC | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: Kakao Games, Kakao Games Japan, XL GAMES
+              </p>
+              <p class="history__bubble__name">
+                Lord of Heroese
+              </p>
+              <p>
+                Duration: Aug 2020 to Feb 2023 | 
+                Platforms: iOS, Android | 
+                Partners: Clover Games
+              </p>
+              <p class="history__bubble__name">
+                Hero Cantare
+              </p>
+              <p>
+                Duration: Jun 2020 to Present | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: NGELGAMES
+              </p>
+              <p class="history__bubble__name">
+                INUYASHA Kor ver.
+              </p>
+              <p>
+                Duration: March 2020 to July 2020 |
+                Description: Localization for the Korean version (Japanese to Korean),
+                proposal planning for the official website.| 
+                Partners: HUMMER Entertainment
+              </p>
+            </div>
+          </li>
+          <li class="history">
+            <img
+              src="images/job_history/Y2019.png"
+              alt="people1"
+              class="history__img"
+            />
+            <div class="history__bubble">
+              <p class="history__bubble__name">
+                INUYASHA
+              </p>
+              <p>
+                Duration: Dec 2019 to Jun 2020 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: DAEWON MEDIA, HUMMER Entertainment, Shogakukan
+              </p>
+              <p class="history__bubble__name">
+                LAST KINGS
+              </p>
+              <p>
+                Duration: July 2019 - January 2020 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: Barunson Entertainment & Arts Corporation, NX GAMES
+              <p class="history__bubble__name">
+                ELCHRONICLE
+              </p>
+              <p>
+                Duration: Apr 2019 to Jan 2021 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: CRAVEMOB
+              </p>
+            </div>
+          </li>
+          <li class="history">
+            <img
+              src="images/job_history/Y2018.png"
+              alt="people1"
+              class="history__img"
+            />
+            <div class="history__bubble">
+              <p class="history__bubble__name">
+                Grand Chase -Dimensional Chaser- 
+              </p>
+              <p>
+                Duration: Jan 2018 to Jun 2019 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: KOG CORPORATION
+              </p>
+            </div>
+          </li>
+          <li class="history">
+            <img
+              src="images/job_history/Y2017.png"
+              alt="people1"
+              class="history__img"
+            />
+            <div class="history__bubble">
+              <p class="history__bubble__name">
+                Lord of Dice
+              </p>
+              <p>
+                Duration: Apr 2017 to Apr 2021 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: NGELGAMES, Kakao Games Corp.
+              </p>
+              <p class="history__bubble__name">
+                Dimensional War Princess
+              </p>
+              <p>
+                Duration: December 2017 - January 2018 | 
+                Description: In-game consulting for the entry into the Japanese market. | 
+                Partners: FLERO GAMES
+              </p>
+              <p class="history__bubble__name">
+                PEPPER-J
+              </p>
+              <p>
+                Duration: August 2017 - October 2017 | 
+                Description: Translation of project proposals and bug reports (Korean to Japanese). | 
+                Partners: Square Enix
+              </p>
+              <p class="history__bubble__name">
+                Extractor.live Platform
+              </p>
+              <p>
+                Duration: May 2017 - December 2017 | 
+                Description: Account management for the influencer platform business, platform strategy planning, 
+                channel configuration planning, proposal planning for casters. | 
+                Partners: Extractor
+              </p>
+              <p class="history__bubble__name">
+                Kingdom Story: Three Kingdoms RPG
+              </p>
+              <p>
+                Duration: March 2017 - Present | 
+                Description: Special localization of in-game strings for "Gotts San Gu" in Kansai dialect | 
+                Partners: NHN Entertainment / Softnyx
+              </p>
+            </div>
+          </li>
+          <li class="history">
+            <img
+              src="images/job_history/Y2016.png"
+              alt="people1"
+              class="history__img"
+            />
+            <div class="history__bubble">
+              <p class="history__bubble__name">
+                Realm Chronicle
+              </p>
+              <p>
+                Duration: Oct 2016 to Feb 2017 | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Platforms: iOS, Android | 
+                Partners: Mobimon Inc.
+              </p>
+              <p class="history__bubble__name">
+                Erakis2
+              </p>
+              <p>
+                Duration: Oct 2016 to Apr 2017 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: NGELGAMES
+              </p>
+              <p class="history__bubble__name">
+                kiniro mosaic
+              </p>
+              <p>
+                Duration: Dec 2016 to Apr 2017 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: Kairos&Co, Gamegate
+              </p>
+              <p class="history__bubble__name">
+                Dungeon Crash
+              </p>
+              <p>
+                Duration: Jan 2016 to Sep 2016 | 
+                Platforms: iOS, Android | 
+                Partners: SkeinGlobe, WeMade Entertainment
+              </p>
+              <p class="history__bubble__name">
+                Monster Super League / Seven Guardians
+              </p>
+              <p>
+                Duration: Mar 2016 to Sep 2016
+                Description: SNS planning and proposal
+                Partners: 4:33, QROAD
+              </p>
+            </div>
+          </li>
+          <li class="history">
+            <img
+              src="images/job_history/Y2015.png"
+              alt="people1"
+              class="history__img"
+            />
+            <div class="history__bubble">
+              <p class="history__bubble__name">
+                Erakis
+              </p>
+              <p>
+                Duration: Oct 2015 to Oct 2016 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: NGELGAMES
+              </p>
+              <p class="history__bubble__name">
+                Hystia
+              </p>
+              <p>
+                Duration: Mar 2015 to Sep 2015 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: WeMade Entertainment
+              </p>
+            </div>
+          </li>
+          <li class="history">
+            <img
+              src="images/job_history/Y2014.png"
+              alt="people1"
+              class="history__img"
+            />
+            <div class="history__bubble">
+              <p class="history__bubble__name">
+                Arksphere
+              </p>
+              <p>
+                Duration: Oct 2014 to Feb 2016 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: WeMade Entertainment
+              </p>
+              <p class="history__bubble__name">
+                Country Town
+              </p>
+              <p>
+                Duration: Mar 2014 to Jul 2014 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: FLERO GAMES, WeMade Entertainment
+              </p>
+              <p class="history__bubble__name">
+                Legend of Atlan
+              </p>
+              <p>
+                Duration: Dec 2013 to Sep 2016 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: Linyworks, WeMade Entertainment
+              </p>
+            </div>
+          </li>
+          <li class="history">
+            <img
+              src="images/job_history/Y2013.png"
+              alt="people1"
+              class="history__img"
+            />
+            <div class="history__bubble">
+              <p class="history__bubble__name">
+                Lollipop☆Island
+              </p>
+              <p>
+                Duration: Oct 2013 to Jul 2015 | 
+                Platforms: iOS, Android | 
+                Description: Managing app launch and live service in the Japanese market | 
+                Partners: WeMade Entertainment
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Arrow up -->
+      <aside>
+        <a class="arrow-up" href="#home" title="back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </aside>
+    </main>
+    <!-- Footer -->
+    <footer id="contact" class="section">
+      <div class="max-container">
+        <h2 class="title">Contact Me</h2>
+        <!-- <p class="description">shion.jung@gmail.com</p> -->
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="https://github.com/cielo8111"
+              target="_blank"
+              title="Github link"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contact__link"
+              href="https://www.linkedin.com/in/heeon-j-b26324139/"
+              target="_blank"
+              title="Linkedin link"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contact__link"
+              href="mailto:shion.jung@gmail.com?subject=[shion.tech] 件名を記載してください。&amp;body=内容を記載してください。"
+              target="_blank"
+              title="shion.jung@gmail.com"
+            >
+            <i class="fa-solid fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+        <p>ⓒshion.tech - All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
